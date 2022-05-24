@@ -8,7 +8,6 @@ function getColor(props) {
     if(props.Purple) return "Purple"
     return ""
 }
-
 export default props => {
     return (
         <div className={`Card ${getColor(props)}`}>
